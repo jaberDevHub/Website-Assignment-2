@@ -32,3 +32,18 @@ body {
 .text-sky-blue {
   color: #01acfd;
 }
+
+/* Header styles */
+header {
+  border: 1px solid red;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbars {
+font-size: 20px;
+font-weight: 500;
+gap: 32px;
+}
