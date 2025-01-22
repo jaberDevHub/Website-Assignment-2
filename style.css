@@ -265,3 +265,288 @@ nav a {
   font-size: 24px;
   color: #fff;
 }
+
+
+
+
+/*                                                                            our stories section                                                                */
+
+.our-stories {
+  border: 1px solid red;
+  text-align: center;
+}
+
+.our-stories h2 {
+  margin-bottom: 80px;
+  font-size: 46px;
+  font-weight: bold;
+  color: #555;
+}
+
+.kids-card-container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 19px;
+  
+}
+
+.large-card {
+  width: 540px;
+  height: 630px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.large-card .date-button {
+  font-family: raleway, serif;
+  position: relative;
+  bottom: 22px;
+  margin: 0px 38px 28px 38px;
+  align-self: flex-start;
+  padding: 15px 19px;
+  background-color: #74d0c0;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.large-card h3 {
+  margin: 0px 38px 28px 38px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.large-card p {
+  margin: 0px 38px 28px 38px;
+  margin-top:48px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.large-card .view-all-btn {
+  align-self: center;
+  width: 174px;
+  height: 47px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.large-card .view-all-btn:hover {
+  background-color: #0056b3;
+}
+
+.right-cards {
+  width: 540px;
+  height: 680px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  width: 601px;
+  gap: 19px;
+}
+
+.small-card {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.small-card .date-button {
+  position: relative;
+  bottom: 22px;
+  padding: 15px 19px;
+  font-family: raleway, serif;
+  margin: 0px 38px 2px 38px;
+  align-self: flex-start;
+  background-color: #d07474;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 15px;
+
+}
+
+.small-card h3 {
+  margin: 0px 38px 28px 38px;
+  padding: 0px 0 0;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: bold; 
+  color: #000000;
+}
+
+.box-container-image {
+  width: 100%;
+  height: 60%;
+  
+}
+
+
+
+
+.stories-card:nth-child(2) .date-button,
+        .stories-card:nth-child(4) .date-button,
+        .stories-card:nth-child(5) .date-button {
+          background-color: #95B226;
+        }
+
+        .stories-card:nth-child(3) .date-button {
+          background-color: #5D58F0;
+        }
+
+
+
+/* main fotter */
+.main-footer{
+  border: 1px solid red;
+
+
+}
+footer{
+        background: #01ACFD;
+        padding-top: 50px;
+    }
+
+
+/* Main Footer */
+.main-footer {
+  width: 100%; /* Use full width */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px; /* Add more space at the bottom */
+  background-color: #01ACFD; /* Ensure background color remains */
+}
+
+/* Additional Reset to Avoid Gaps */
+footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Logo Section */
+.logo-footer {
+  margin-left: 140px;
+  border: 1px solid red;
+  flex: 1;
+  min-width: 250px;
+  display: flex; /* Align logo and text horizontally */
+  align-items: center; /* Vertically align logo and text */
+  gap: 15px; /* Adds space between logo and text */
+  /* margin-right: 173px; */
+}
+
+
+.logo-footer img {
+  max-width: 80px;
+  height: auto;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column; /* Stack Kids and Education vertically */
+}
+
+.logo-title {
+  font-size: 1.8rem; /* Keep Kids and Education the same size */
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1.2;
+  white-space: nowrap; /* Prevent wrapping of "Kids" */
+}
+
+.logo-title span {
+  display: block; /* Forces "Education" to a new line */
+  font-size: 1.8rem;
+}
+
+/* Description */
+.footerlogo-description {
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 1.5;
+  margin-top: 0; /* Remove default margin if necessary */
+  text-align: left;
+}
+
+/* Additional Footer Section Styling */
+.about-school, .keep-in-touch {
+  flex: 1;
+  min-width: 200px;
+  margin: 0 10px;
+}
+
+
+/* About School and Keep In Touch */
+.about-school, .keep-in-touch {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.about-school{
+  margin-left: 230px;
+}
+.about-school p, .keep-in-touch p {
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.about-school ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-school li {
+  margin: 5px 0;
+}
+
+.about-school a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.about-school a:hover {
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
