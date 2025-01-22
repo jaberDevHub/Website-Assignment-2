@@ -105,6 +105,16 @@ nav a {
   line-height: 30px;
 }
 
+
+
+
+
+.nav-head,
+.banner-section, .curriculum, .box-container, .our-stories, .main-footer{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
                                             /* Banner section styles */
                                             .banner-section {
                                               border: 1px solid rgb(128, 0, 255);
@@ -144,3 +154,114 @@ nav a {
 }
 
 
+                                                    /* curriculam section */
+
+                                                    .curriculum {
+                                                      border: 1px solid red;
+                                                      background-image: url(/assets/bg.png);
+                                                      /* padding: 60px 20px; */
+                                                      text-align: center;
+                                                      align-items: center;
+                                                      
+                                                    }
+
+.section-title {
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.card-container {
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 28px; /* Add 28px gap between cards */
+}
+
+.card {
+  width: 367.8px;
+  height: 276px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 80px 40px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card-1 {
+  background: linear-gradient(#def5ff, #ffffff);
+}
+
+.card-2 {
+  background: linear-gradient(#fff4dc, #ffffff);
+}
+
+.card-3 {
+  background: linear-gradient(#f2e8ff, #ffffff);
+}
+.card img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.read-more-btn {
+  background-color: transparent;
+  border: none;
+  color: #64c8ff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.card:nth-child(2) .read-more-btn {
+  color: #f0aa00;
+}
+
+.card:nth-child(3) .read-more-btn {
+  color: #8700ff;
+}
+
+.pagination {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev-btn,
+.next-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: orange;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.next-btn {
+  transform: rotate(-360deg); /* Rotate for left arrow */
+}
+.prev-btn {
+  transform: rotate(360deg); /* Rotate for left arrow */
+}
+.prev-btn,
+.next-btn {
+  font-size: 24px;
+  color: #fff;
+}
