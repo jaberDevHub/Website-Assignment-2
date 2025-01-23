@@ -34,8 +34,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.nav-head {
-}
 
 .navbars {
   margin-top: 20px;
@@ -135,6 +133,7 @@ nav a {
   font-size: 20px;
   font-weight: normal;
   margin-bottom: 24px;
+  margin-right: 320px;
 }
 
 .enroll-btn {
@@ -491,4 +490,45 @@ footer {
   font-weight: 500;
 }
 
-@media;
+@media screen and (max-width: 576px) {
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+  .banner-content {
+  }
+  .banner-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .banner-description {
+    font-size: 14px;
+    padding: 17px;
+    text-align: center;
+    margin: auto;
+    margin-top: 18px;
+  }
+
+  .enroll-btn {
+    margin-top: 18px;
+    margin-left: 100px;
+  }
+
+  .hero-kids {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .contact-btn {
+    display: none;
+  }
+  .School {
+    display: none;
+  }
+}
