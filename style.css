@@ -248,10 +248,10 @@ nav a {
 }
 
 .next-btn {
-  transform: rotate(-360deg); /* Rotate for left arrow */
+  transform: rotate(-360deg);
 }
 .prev-btn {
-  transform: rotate(360deg); /* Rotate for left arrow */
+  transform: rotate(360deg);
 }
 .prev-btn,
 .next-btn {
@@ -403,145 +403,6 @@ nav a {
   background-color: #5d58f0;
 }
 
-/* main fotter */
-.main-footer {
-  /* border: 1px solid red; */
-}
-footer {
-  background: #01acfd;
-  padding-top: 50px;
-}
-
-/* Main Footer */
-.main-footer {
-  border: 1px solid #ff0000;
-  width: 100%; /* Use full width */
-  margin: auto;
-  display: flex;
-  align-items: baseline;
-  margin-top: 123px;
-  padding-bottom: 174px; /* Add more space at the bottom */
-  background-color: #01acfd; /* Ensure background color remains */
-}
-
-/* Additional Reset to Avoid Gaps */
-footer {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-/* Logo Section */
-.logo-footer {
-  border: 1px solid #00ff2f;
-  margin-left: 140px;
-  /* border: 1px solid red; */
-  flex: 1;
-  min-width: 250px;
-  display: flex; /* Align logo and text horizontally */
-
-  align-items: center; /* Vertically align logo and text */
-  gap: 15px; /* Adds space between logo and text */
-  /* margin-right: 173px; */
-}
-
-.logo-footer img {
-  max-width: 80px;
-  height: auto;
-}
-
-.logo-text {
-  display: flex;
-  flex-direction: column; /* Stack Kids and Education vertically */
-}
-
-.logo-title {
-  font-size: 1.8rem; /* Keep Kids and Education the same size */
-  font-weight: bold;
-  color: #ffffff;
-  line-height: 1.2;
-  white-space: nowrap; /* Prevent wrapping of "Kids" */
-}
-
-.logo-title span {
-  display: block; /* Forces "Education" to a new line */
-  font-size: 1.8rem;
-}
-
-/* Description */
-.footerlogo-description {
-  font-size: 12px;
-  color: #ffffff;
-  line-height: 1.5;
-  margin-top: 0; /* Remove default margin if necessary */
-  text-align: left;
-}
-
-/* Additional Footer Section Styling */
-.about-school,
-.keep-in-touch {
-  min-width: 200px;
-  margin: 0 10px;
-}
-
-/* About School and Keep In Touch */
-.about-school,
-.keep-in-touch {
-  flex: 1;
-  min-width: 200px;
-  margin: 10px;
-}
-
-.about-school {
-  border: 1px solid #ff0000;
-  margin-left: 230px;
-}
-.about-school p,
-.keep-in-touch p {
-  font-size: 26px;
-  font-weight: bold;
-  color: #ffffff;
-  margin-bottom: 10px;
-}
-.keep-in-touch {
-  border: 1px solid #bb00ff;
-  margin-bottom: 50px;
-}
-.about-school ul {
-  list-style: none;
-  margin-right: 30px;
-  padding: 0;
-}
-
-.about-school li {
-}
-
-.about-school a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.about-school a:hover {
-  text-decoration: underline;
-}
-
-/* Social Icons */
-.social-icons {
-  display: flex;
-  gap: 10px;
-}
-
-.social-icons img {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out;
-}
-
-.social-icons img:hover {
-  transform: scale(1.1);
-}
-
 /* footer section */
 
 footer {
@@ -550,21 +411,15 @@ footer {
 }
 
 .container {
-  border: 1px solid #00ff2f;
+  /* border: 1px solid #00ff2f; */
 }
 
 .logo-title-1 {
-  border: 1px solid #00ff2f;
   font-size: 42px;
   font-weight: bold;
   color: #ffffff;
 
-  white-space: nowrap; /* Prevent wrapping of "Kids" */
-}
-
-.logo-title-1 span {
-  display: block; /* Forces "Education" to a new line */
-  font-size: 1.8rem;
+  white-space: nowrap;
 }
 
 .row {
@@ -588,7 +443,7 @@ footer {
 }
 
 .logo-container img {
-  margin-right: 10px;
+  margin-right: 11px;
 }
 
 .social-icons a {
@@ -617,9 +472,23 @@ footer {
 }
 
 .col-md-4 .About-School {
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 
-.col-md-4 a {
-  border: 1px solid red;
+.col-md-4 p {
+  margin-right: -50px;
+  margin-left: 10px;
+  font-size: 20px;
 }
+
+.col-md-4 ul {
+  margin-right: -100px;
+  margin-left: -40px;
+}
+
+.col-md-4 li a {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media;
