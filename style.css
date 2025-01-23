@@ -494,8 +494,7 @@ footer {
   .banner-section {
     flex-direction: column-reverse;
   }
-  .banner-content {
-  }
+
   .banner-title {
     font-size: 32px;
     font-weight: bold;
