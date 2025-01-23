@@ -7,11 +7,6 @@
   font-style: normal;
 }
 
-
-
-
-
-
 /* General styles */
 body {
   font-family: sans-serif;
@@ -20,15 +15,14 @@ body {
 }
 
 /* shared styles */
-.green-color{
-  color: #95B226;
+.green-color {
+  color: #95b226;
 }
-.display-flex{
+.display-flex {
   display: flex;
 }
 .text-Orange {
   color: #fea301;
-
 }
 .text-sky-blue {
   color: #01acfd;
@@ -36,7 +30,6 @@ body {
 
 /* Header styles */
 header {
-  border: 1px solid red;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -44,9 +37,9 @@ header {
 }
 
 .navbars {
-font-size: 20px;
-font-weight: 500;
-gap: 32px;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 32px;
 }
 .logo {
   font-size: 32px;
@@ -54,7 +47,6 @@ gap: 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 .School {
   padding: 15px 11px;
@@ -70,7 +62,6 @@ nav ul {
 nav li {
   margin-right: 20px;
 }
-
 
 nav a {
   text-decoration: none;
@@ -105,25 +96,24 @@ nav a {
   line-height: 30px;
 }
 
-
-
-
-
 .nav-head,
-.banner-section, .curriculum, .box-container, .our-stories, .main-footer{
+.banner-section,
+.curriculum,
+.box-container,
+.our-stories,
+.main-footer {
   max-width: 1440px;
   margin: 0 auto;
 }
 
-                                            /* Banner section styles */
-                                            .banner-section {
-                                              border: 1px solid rgb(128, 0, 255);
-                                              margin-bottom: 60px;
-                                              display: flex;
-                                              justify-content: space-between;
-                                              align-items: center;
-                                            
-                                            }
+/* Banner section styles */
+.banner-section {
+  /* border: 1px solid rgb(128, 0, 255); */
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* .banner-content{
     max-width: 640px;
@@ -153,17 +143,14 @@ nav a {
   cursor: pointer;
 }
 
+/* curriculam section */
 
-                                                    /* curriculam section */
-
-                                                    .curriculum {
-                                                      border: 1px solid red;
-                                                      background-image: url(/assets/bg.png);
-                                                      /* padding: 60px 20px; */
-                                                      text-align: center;
-                                                      align-items: center;
-                                                      
-                                                    }
+.curriculum {
+  background-image: url(/assets/bg.png);
+  /* padding: 60px 20px; */
+  text-align: center;
+  align-items: center;
+}
 
 .section-title {
   font-size: 46px;
@@ -266,13 +253,10 @@ nav a {
   color: #fff;
 }
 
-
-
-
 /*                                                                            our stories section                                                                */
 
 .our-stories {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
 }
 
@@ -284,12 +268,10 @@ nav a {
 }
 
 .kids-card-container {
-  
   display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 19px;
-  
 }
 
 .large-card {
@@ -328,7 +310,7 @@ nav a {
 
 .large-card p {
   margin: 0px 38px 28px 38px;
-  margin-top:48px;
+  margin-top: 48px;
   padding-bottom: 20px;
   font-size: 15px;
   color: #666;
@@ -341,7 +323,7 @@ nav a {
   height: 47px;
   font-size: 15px;
   color: #fff;
-  background-color: #007BFF;
+  background-color: #007bff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -385,7 +367,6 @@ nav a {
   color: #fff;
   border-radius: 20px;
   font-size: 15px;
-
 }
 
 .small-card h3 {
@@ -393,42 +374,33 @@ nav a {
   padding: 0px 0 0;
   font-size: 16px;
   line-height: 28px;
-  font-weight: bold; 
+  font-weight: bold;
   color: #000000;
 }
 
 .box-container-image {
   width: 100%;
   height: 60%;
-  
 }
-
-
-
 
 .stories-card:nth-child(2) .date-button,
-        .stories-card:nth-child(4) .date-button,
-        .stories-card:nth-child(5) .date-button {
-          background-color: #95B226;
-        }
+.stories-card:nth-child(4) .date-button,
+.stories-card:nth-child(5) .date-button {
+  background-color: #95b226;
+}
 
-        .stories-card:nth-child(3) .date-button {
-          background-color: #5D58F0;
-        }
-
-
+.stories-card:nth-child(3) .date-button {
+  background-color: #5d58f0;
+}
 
 /* main fotter */
-.main-footer{
-  border: 1px solid red;
-
-
+.main-footer {
+  /* border: 1px solid red; */
 }
-footer{
-        background: #01ACFD;
-        padding-top: 50px;
-    }
-
+footer {
+  background: #01acfd;
+  padding-top: 50px;
+}
 
 /* Main Footer */
 .main-footer {
@@ -437,7 +409,7 @@ footer{
   display: flex;
   justify-content: center;
   padding-bottom: 40px; /* Add more space at the bottom */
-  background-color: #01ACFD; /* Ensure background color remains */
+  background-color: #01acfd; /* Ensure background color remains */
 }
 
 /* Additional Reset to Avoid Gaps */
@@ -450,7 +422,7 @@ footer {
 /* Logo Section */
 .logo-footer {
   margin-left: 140px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   flex: 1;
   min-width: 250px;
   display: flex; /* Align logo and text horizontally */
@@ -458,7 +430,6 @@ footer {
   gap: 15px; /* Adds space between logo and text */
   /* margin-right: 173px; */
 }
-
 
 .logo-footer img {
   max-width: 80px;
@@ -493,24 +464,26 @@ footer {
 }
 
 /* Additional Footer Section Styling */
-.about-school, .keep-in-touch {
+.about-school,
+.keep-in-touch {
   flex: 1;
   min-width: 200px;
   margin: 0 10px;
 }
 
-
 /* About School and Keep In Touch */
-.about-school, .keep-in-touch {
+.about-school,
+.keep-in-touch {
   flex: 1;
   min-width: 200px;
   margin: 10px;
 }
 
-.about-school{
+.about-school {
   margin-left: 230px;
 }
-.about-school p, .keep-in-touch p {
+.about-school p,
+.keep-in-touch p {
   font-weight: bold;
   color: #ffffff;
   margin-bottom: 10px;
