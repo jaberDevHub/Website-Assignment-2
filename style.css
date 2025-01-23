@@ -409,10 +409,12 @@ footer {
 
 /* Main Footer */
 .main-footer {
+  border: 1px solid #ff0000;
   width: 100%; /* Use full width */
   margin: auto;
   display: flex;
-  justify-content: center;
+  align-items: baseline;
+  margin-top: 123px;
   padding-bottom: 174px; /* Add more space at the bottom */
   background-color: #01acfd; /* Ensure background color remains */
 }
@@ -426,11 +428,13 @@ footer {
 
 /* Logo Section */
 .logo-footer {
+  border: 1px solid #00ff2f;
   margin-left: 140px;
   /* border: 1px solid red; */
   flex: 1;
   min-width: 250px;
   display: flex; /* Align logo and text horizontally */
+
   align-items: center; /* Vertically align logo and text */
   gap: 15px; /* Adds space between logo and text */
   /* margin-right: 173px; */
@@ -471,7 +475,6 @@ footer {
 /* Additional Footer Section Styling */
 .about-school,
 .keep-in-touch {
-  flex: 1;
   min-width: 200px;
   margin: 0 10px;
 }
@@ -485,6 +488,7 @@ footer {
 }
 
 .about-school {
+  border: 1px solid #ff0000;
   margin-left: 230px;
 }
 .about-school p,
@@ -495,6 +499,7 @@ footer {
   margin-bottom: 10px;
 }
 .keep-in-touch {
+  border: 1px solid #bb00ff;
   margin-bottom: 50px;
 }
 .about-school ul {
