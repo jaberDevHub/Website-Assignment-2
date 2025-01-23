@@ -413,7 +413,7 @@ footer {
   margin: auto;
   display: flex;
   justify-content: center;
-  padding-bottom: 40px; /* Add more space at the bottom */
+  padding-bottom: 174px; /* Add more space at the bottom */
   background-color: #01acfd; /* Ensure background color remains */
 }
 
@@ -489,11 +489,14 @@ footer {
 }
 .about-school p,
 .keep-in-touch p {
+  font-size: 26px;
   font-weight: bold;
   color: #ffffff;
   margin-bottom: 10px;
 }
-
+.keep-in-touch {
+  margin-bottom: 50px;
+}
 .about-school ul {
   list-style: none;
   padding: 0;
